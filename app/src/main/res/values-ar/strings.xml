@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="news_app">تطبيق الأخبار</string>
+    <string name="news_app_2">تطيبق الأخبار!</string>
+    <string name="categories">الفئات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="pick_your_category">اختر فئتك</string>
+    <string name="of_interest">التي تهتم بها</string>
+    <string name="language">اللغة</string>
+    <string name="business">الأعمال</string>
+    <string name="entertainment">التسلية</string>
+    <string name="health">الصحة</string>
+    <string name="science">العلم</string>
+    <string name="sports">الرياضة</string>
+    <string name="technology">التكنولوجيا</string>
+    <string name="search_here">ابحث هنا</string>
+    <string name="there_is_no_results_here_yet">ليس هناك أي نتائج هنا بعد!!</string>
+    <string name="view_full_article">عرض المقالة كاملة</string>
+    <string name="search_for_articles">ابحث عن مقالات</string>
+</resources>
