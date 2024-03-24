@@ -10,27 +10,27 @@ import androidx.lifecycle.ViewModel
 
 class SettingsViewModel : ViewModel() {
 
-    var selectedLanguage by mutableStateOf(getCurrentLanguage())
-
-    private fun getCurrentLanguage(): String {
-
-        val systemLanguage = when (Locale.current.language) {
-            "en" -> "English"
-            "ar" -> "العربية"
-            else -> "English"
-        }
-        var currentLanguage =
-            AppCompatDelegate.getApplicationLocales()[0]?.displayLanguage ?: systemLanguage
-
-        currentLanguage = if (currentLanguage == "Arabic") "العربية" else currentLanguage
-
-        return currentLanguage
-    }
-
     var position by mutableStateOf<Int?>(null)
 
-
-
     var isExpanded by mutableStateOf(false)
+
+//    var selectedLanguage by mutableStateOf(getCurrentLanguage())
+//
+//    private fun getCurrentLanguage(): String {
+//
+//        val systemLanguage = when (Locale.current.language) {
+//            "en" -> "English"
+//            "ar" -> "العربية"
+//            else -> "English"
+//        }
+//        var currentLanguage =
+//            AppCompatDelegate.getApplicationLocales()[0]?.displayLanguage ?: systemLanguage
+//
+//        currentLanguage = if (currentLanguage == "Arabic") "العربية" else currentLanguage
+//
+//        return currentLanguage
+//    }
+
+
 
 }
